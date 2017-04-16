@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="com/company/bicycleshop/screens.xml"/>
+    <screen id="bicycleshop$SparePart.browse"
+            template="com/company/bicycleshop/web/sparepart/spare-part-browse.xml"/>
+    <screen id="bicycleshop$SparePart.edit"
+            template="com/company/bicycleshop/web/sparepart/spare-part-edit.xml"/>
+    <screen id="bicycleshop$Client.browse"
+            template="com/company/bicycleshop/web/client/client-browse.xml"/>
+    <screen id="bicycleshop$Client.edit"
+            template="com/company/bicycleshop/web/client/client-edit.xml"/>
+    <screen id="bicycleshop$Mechanic.browse"
+            template="com/company/bicycleshop/web/mechanic/mechanic-browse.xml"/>
+    <screen id="bicycleshop$Mechanic.edit"
+            template="com/company/bicycleshop/web/mechanic/mechanic-edit.xml"/>
+    <screen id="bicycleshop$Order.browse"
+            template="com/company/bicycleshop/web/order/order-browse.xml"/>
+    <screen id="bicycleshop$Order.edit"
+            template="com/company/bicycleshop/web/order/order-edit.xml"/>
+</screen-config>
